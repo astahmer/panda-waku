@@ -9,7 +9,8 @@
   "scripts": {
     "dev": "waku dev",
     "build": "waku build",
-    "start": "waku start --config vite.prd.config.ts"
+    "start": "waku start --config vite.prd.config.ts",
+    "prepare": "panda codegen"
   },
   "dependencies": {
     "express": "^4.18.2",

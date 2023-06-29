@@ -1,6 +1,7 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import { serve } from "waku/client";
+import "./panda.css";
 
 const App = serve<{ name: string }>("App");
 const rootElement = (
